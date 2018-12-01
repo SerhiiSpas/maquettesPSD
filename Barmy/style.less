@@ -7,7 +7,9 @@
 
 .Top {
   background: url(images/Fon-top.jpg);
+  background-position: center center;
   background-size: cover;
+
   text-align: center;
 }
 
@@ -22,6 +24,11 @@
     line-height: 30px;
     padding-left: 25px;
     padding-right: 25px;
+  }
+  & a:hover {
+    color: #fff;
+    background: url(images/Hover_menu.png);
+    text-decoration: none;
   }
 }
 
@@ -38,6 +45,7 @@
   font-size: 19px;
   text-decoration: none;
   margin-top: 100px;
+  margin-bottom: 286px;
 }
 
 .Top-slider__btn:hover {
@@ -46,3 +54,113 @@
 }
 
 /* Finish TOP */
+/* Start about */
+
+.about {
+  background: url(images/Photo_About_us.jpg);
+  background-position: center center;
+  background-size: cover;
+  & h3 {
+    color: #95a7ff;
+    font-family: outrunfuture;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 284px 0 35px 14px;
+  }
+  & h1 {
+    color: #ffffff;
+    font-family: outrunfuture;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  & p {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 63px;
+  }
+  & .about-photo {
+    padding-top: 152px;
+    text-align: center;
+    padding-bottom: 400px;
+
+    & .about-photo2 {
+      position: absolute;
+      bottom: 205px;
+      left: 9px;
+    }
+  }
+}
+
+/* Finish about */
+/* Start slider */
+
+.slider {
+  height: 800px;
+  background: url(images/slider-fon.png);
+  background-position: center center;
+  background-size: cover;
+  background-color: #000;
+  text-align: center;
+
+  & h1 {
+    color: #ffffff;
+    font-family: outrunfuture;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 240px;
+  }
+  & p {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 63px;
+  }
+}
+
+.thumbnails {
+  margin-top: 238px;
+}
+
+.thumb {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #000;
+  width: 286px;
+  height: 200px;
+  padding: 0 0;
+  margin-left: -4px;
+  transition: 0.2s;
+}
+
+.thumb1 {
+  background: url(images/slider-one.jpg);
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 7px rgb(189, 27, 27);
+}
+
+.thumb2 {
+  background: url(images/slider-two.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.thumb3 {
+  background: url(images/slider-three.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.thumb4 {
+  background: url(images/slider-four.jpg);
+  background-position: center center;
+  background-size: cover;
+}
