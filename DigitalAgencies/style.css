@@ -85,4 +85,54 @@ header {
   border-radius: 100%;
   border: 1px white solid;
 }
+/* finish first */
+/* Start about */
+.about {
+  background-color: #11749e;
+  text-align: center;
+}
+.about .about-logo h1 {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: 'Roboto Condensed';
+  font-size: 247px;
+  font-weight: 700;
+  line-height: 210.64px;
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-bottom: 68px;
+}
+.about .about-slogan h2 {
+  color: #ffffff;
+  font-family: Gotham;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 45.06px;
+  text-transform: uppercase;
+  position: relative;
+  top: -212px;
+}
+.about .about-feature {
+  display: flex;
+}
+.about .about-feature .about-feature-text {
+  margin: 0 20px;
+  padding-bottom: 50px;
+}
+.about .about-feature .about-feature-text .about-feature-text-top {
+  color: #ffffff;
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: uppercase;
+  padding: 24px 0 34px;
+}
+.about .about-feature .about-feature-text .about-feature-text-other {
+  color: #ffffff;
+  font-family: "Gotham - Book";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
 /*# sourceMappingURL=style.css.map */
