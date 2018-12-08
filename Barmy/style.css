@@ -112,38 +112,14 @@
   padding-top: 63px;
 }
 .thumbnails {
-  margin-top: 238px;
+  margin-top: 203px;
 }
-.thumb {
-  cursor: pointer;
-  display: inline-block;
-  background-color: #000;
+.link img:hover {
+  border: 3px red solid;
+}
+.slider-thumbnails {
   width: 286px;
   height: 200px;
-  padding: 0 0;
-  margin-left: -4px;
-  transition: 0.2s;
-}
-.thumb1 {
-  background: url(images/slider-one.jpg);
-  background-position: center center;
-  background-size: cover;
-  box-shadow: inset 0 0 0 7px #bd1b1b;
-}
-.thumb2 {
-  background: url(images/slider-two.jpg);
-  background-position: center center;
-  background-size: cover;
-}
-.thumb3 {
-  background: url(images/slider-three.jpg);
-  background-position: center center;
-  background-size: cover;
-}
-.thumb4 {
-  background: url(images/slider-four.jpg);
-  background-position: center center;
-  background-size: cover;
 }
 /* Finish slider */
 /* Start footer */
