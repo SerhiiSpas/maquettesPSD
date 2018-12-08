@@ -111,10 +111,6 @@ header {
   position: relative;
   top: -212px;
 }
-.about .about-feature {
-  display: flex;
-  justify-content: space-between;
-}
 .about .about-feature .about-feature-text {
   margin: 0 20px;
   padding-bottom: 50px;
@@ -138,30 +134,28 @@ header {
 }
 /* finish about */
 /* Start Akita */
-.Akita-about-top {
-  display: flex;
-}
-.Akita-about-top .Akita-about-top-text {
+.Akita-all td {
   background-color: #222222;
-  width: 50%;
+}
+.Akita-all .Akita-about-top-text {
   padding: 82px 119px 0 38px;
   text-align: left;
 }
-.Akita-about-top .Akita-about-top-text .data {
+.Akita-all .Akita-about-top-text .data {
   color: #ffffff;
   font-family: GothamBook;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
 }
-.Akita-about-top .Akita-about-top-text .text {
+.Akita-all .Akita-about-top-text .text {
   color: #ffffff;
   font-family: GothamBook;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
 }
-.Akita-about-top .Akita-about-top-text h3 {
+.Akita-all .Akita-about-top-text h3 {
   color: #ffffff;
   font-family: Gotham;
   font-size: 25px;
@@ -169,29 +163,28 @@ header {
   line-height: 36px;
   text-transform: uppercase;
 }
-.Akita-about-bottom {
-  display: flex;
-}
-.Akita-about-bottom .Akita-about-bottom-text {
+.Akita-all tr .two {
   background-color: #f3f3f3;
+}
+.Akita-all .Akita-about-bottom-text {
   padding: 82px 119px 0 38px;
   text-align: left;
 }
-.Akita-about-bottom .Akita-about-bottom-text .data {
+.Akita-all .Akita-about-bottom-text .data {
   color: #222222;
   font-family: GothamBook;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
 }
-.Akita-about-bottom .Akita-about-bottom-text .text {
+.Akita-all .Akita-about-bottom-text .text {
   color: #222222;
   font-family: GothamBook;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
 }
-.Akita-about-bottom .Akita-about-bottom-text h3 {
+.Akita-all .Akita-about-bottom-text h3 {
   color: #222222;
   font-family: Gotham;
   font-size: 25px;

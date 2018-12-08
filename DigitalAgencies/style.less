@@ -123,8 +123,7 @@ header {
     top: -212px;
   }
   & .about-feature {
-    display: flex;
-    justify-content: space-between;
+
     & .about-feature-text {
       margin: 0 20px;
       padding-bottom: 50px;
@@ -152,11 +151,11 @@ header {
 /* finish about */
 /* Start Akita */
 
-.Akita-about-top {
-  display: flex;
-  & .Akita-about-top-text {
+.Akita-all {
+  & td {
     background-color: #222222;
-    width: 50%;
+  }
+  & .Akita-about-top-text {
     padding: 82px 119px 0 38px;
     text-align: left;
     & .data {
@@ -184,10 +183,13 @@ header {
   }
 }
 
-.Akita-about-bottom {
-    display: flex;
+.Akita-all {
+  & tr {
+    & .two {
+      background-color: #f3f3f3;
+    }
+  }
   & .Akita-about-bottom-text {
-    background-color: #f3f3f3;
     padding: 82px 119px 0 38px;
     text-align: left;
     & .data {
@@ -274,4 +276,5 @@ header {
     padding-bottom: 109px;
   }
 }
+
 
