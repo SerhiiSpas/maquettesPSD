@@ -244,4 +244,21 @@ header {
   line-height: 24px;
   padding-bottom: 109px;
 }
+/* finish blog */
+/* Start blue */
+.blue {
+  background-color: #11749e;
+}
+.blue img {
+  margin-top: 114px;
+}
+.blue p {
+  margin-top: 114px;
+  margin-bottom: 130px;
+  color: #ffffff;
+  font-family: GothamBook;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
 /*# sourceMappingURL=style.css.map */
