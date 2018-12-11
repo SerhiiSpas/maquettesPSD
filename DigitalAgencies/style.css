@@ -435,7 +435,7 @@ header {
 /* finish contact */
 /* Start location */
 .location {
-  background-color: #222222;
+  background-color: black;
 }
 .location iframe {
   width: 100%;
@@ -443,7 +443,7 @@ header {
 }
 /* finish location */
 footer {
-  background-color: #222222;
+  background-color: black;
   height: 120px;
 }
 footer .footer-text p {

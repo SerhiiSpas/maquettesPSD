@@ -8,6 +8,7 @@
   background-position: center center;
   background-size: cover;
   text-align: center;
+  width: 100%;
 }
 .Top-menu {
   padding-top: 134px;
@@ -28,8 +29,13 @@
   text-decoration: none;
 }
 .Top-slider img {
-  position: relative;
   padding-top: 26px;
+}
+.Top-slider-big {
+  width: 80%;
+}
+.Top-slider-small {
+  width: 55%;
 }
 .Top-slider__btn {
   color: #000;
@@ -51,6 +57,7 @@
   background: url(images/Photo_About_us.jpg);
   background-position: center center;
   background-size: cover;
+  width: 100%;
 }
 .about h3 {
   color: #95a7ff;
@@ -80,10 +87,14 @@
   text-align: center;
   padding-bottom: 400px;
 }
+.about .about-photo .about-photo1 {
+  width: 100%;
+}
 .about .about-photo .about-photo2 {
   position: absolute;
   bottom: 205px;
   left: 9px;
+  width: 80%;
 }
 /* Finish about */
 /* Start slider */
@@ -94,6 +105,7 @@
   background-size: cover;
   background-color: #000;
   text-align: center;
+  width: 100%;
 }
 .slider h1 {
   color: #ffffff;
@@ -127,10 +139,12 @@
   background: url(images/footer.jpg) no-repeat;
   text-align: center;
   height: 100%;
+  width: 100%;
 }
 .last .last-graffiti img {
   padding-top: 300px;
   padding-bottom: 50px;
+  width: 45%;
 }
 .last .last__btn {
   color: #ff4e3e;
