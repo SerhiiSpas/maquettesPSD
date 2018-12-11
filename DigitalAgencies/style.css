@@ -163,6 +163,9 @@ header {
   line-height: 36px;
   text-transform: uppercase;
 }
+.Akita-all {
+  width: 100%;
+}
 .Akita-all tr .two {
   background-color: #f3f3f3;
 }
@@ -296,21 +299,21 @@ header {
   padding-left: 19px;
 }
 .mobile .mobile-design {
-  width: 370px;
+  width: 70%;
   height: 38px;
   background-color: #11749e;
   padding-top: 7px;
   margin-bottom: 24px;
 }
 .mobile .mobile-Code {
-  width: 400px;
+  width: 80%;
   height: 38px;
   background-color: #11749e;
   padding-top: 7px;
   margin-bottom: 24px;
 }
 .mobile .mobile-Different {
-  width: 428px;
+  width: 90%;
   height: 38px;
   background-color: #11749e;
   padding-top: 7px;
@@ -453,5 +456,37 @@ footer .footer-text p {
   font-weight: 400;
   line-height: 36px;
   padding-top: 45px;
+}
+/* start media */
+@media (max-width: 992px) {
+  .first-slider h1 {
+    font-size: 100px;
+    font-weight: 700;
+    padding-top: 10px;
+  }
+  .first-slider h3 {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 7px;
+  }
+  .mobile img {
+    padding: 0;
+    width: 100%;
+  }
+  .Akita-about-bottom-text {
+    padding: 0;
+    width: 70px;
+  }
+  .Akita-about-top-text {
+    padding: 0;
+    width: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .first-slider h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 50px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
