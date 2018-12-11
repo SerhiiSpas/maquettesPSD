@@ -138,7 +138,6 @@
 .last {
   background: url(images/footer.jpg) no-repeat;
   text-align: center;
-  height: 100%;
   width: 100%;
 }
 .last .last-graffiti img {
@@ -165,6 +164,5 @@
   font-weight: 400;
   line-height: 30px;
   padding-top: 266px;
-  padding-bottom: 100px;
 }
 /*# sourceMappingURL=style.css.map */
