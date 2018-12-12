@@ -165,4 +165,15 @@
   line-height: 30px;
   padding-top: 266px;
 }
+@media (max-width: 992px) {
+  .thumbnails {
+    margin-top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .slider-thumbnails {
+    width: 100px;
+    height: 100px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
