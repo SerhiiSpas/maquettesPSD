@@ -175,5 +175,8 @@
     width: 100px;
     height: 100px;
   }
+  .about h3 {
+    padding: 0 0 35px 14px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
