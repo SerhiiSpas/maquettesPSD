@@ -1,16 +1,42 @@
 header {
   background: url(images/header-fon.jpg);
   background-size: cover;
+  padding-bottom: 200px;
 }
 header .nav {
   padding-top: 38px;
 }
 header nav a {
-  color: black;
+  color: #FF4500;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 800;
   line-height: 24px;
   text-transform: uppercase;
+}
+header .header-all h1 {
+  padding-top: 180px;
+  color: #FF4500;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 48px;
+}
+header .header-all p {
+  color: #FF4500;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 32px 0 39px;
+}
+header .header-all .header-all__btn {
+  background-color: #FF4500;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 84px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
