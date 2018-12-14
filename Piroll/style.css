@@ -4,7 +4,7 @@ header {
   background-size: cover;
   padding-bottom: 200px;
 }
-header .nav {
+header nav {
   padding-top: 38px;
 }
 header nav a {
