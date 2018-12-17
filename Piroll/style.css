@@ -85,5 +85,39 @@ header .header-all .header-all__btn {
   height: 10px;
 }
 /* finish skills */
-/* start skills */
+/* start work */
+.work {
+  background-color: #10c9c3;
+}
+.work .projects {
+  padding: 102px 0px;
+}
+.work .projects p {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.work .projects img {
+  float: left;
+  width: 40px;
+  height: 36px;
+  margin-right: 28px;
+}
+/* finish work */
+/* start work */
+@media (max-width: 992px) {
+  header {
+    text-align: center;
+  }
+  header .header-all h1 {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .work .projects {
+    padding: 30px 0px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
