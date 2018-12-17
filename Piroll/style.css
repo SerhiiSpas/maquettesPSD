@@ -108,6 +108,12 @@ header .header-all .header-all__btn {
 }
 /* finish work */
 /* start work */
+.load .load-work {
+  width: 100%;
+}
+.load .load-work img {
+  width: 100%;
+}
 @media (max-width: 992px) {
   header {
     text-align: center;
