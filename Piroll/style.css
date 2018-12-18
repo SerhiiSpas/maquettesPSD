@@ -42,6 +42,11 @@ header .header-all .header-all__btn {
   height: 54px;
   border: none;
 }
+header .header-all .header-all__btn:hover {
+  background-color: black;
+  transition-duration: 1s;
+  cursor: pointer;
+}
 /* finish header */
 /* start about-us */
 .about-us {
@@ -245,6 +250,11 @@ header .header-all .header-all__btn {
   width: 180px;
   height: 54px;
   border: none;
+}
+.Top-slider__btn:hover {
+  background-color: black;
+  transition-duration: 1s;
+  cursor: pointer;
 }
 /* finish need */
 /* start footer */
