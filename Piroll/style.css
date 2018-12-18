@@ -170,11 +170,70 @@ header .header-all .header-all__btn {
 .carousel p {
   padding: 30px 0 178px;
   color: #ffffff;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 36px;
   text-transform: uppercase;
+}
+/* finish carousel */
+/* start sponsors */
+.sponsors {
+  background-color: #ffffff;
+  display: flex;
+  text-align: center;
+}
+.sponsors img {
+  padding: 65px 5%;
+}
+/* finish sponsors */
+/* start need */
+.need {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+.need h2 {
+  color: #1d1d1d;
+  ffont-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 84px;
+}
+.need p {
+  color: #787878;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.need .input-group-Name {
+  height: 48px;
+  background-color: #ffffff;
+  border: none;
+  width: 30%;
+  margin: 0 15px 30px;
+}
+.need .input-group-Email {
+  height: 48px;
+  background-color: #ffffff;
+  border: none;
+  width: 30%;
+  margin: 0 15px 30px;
+}
+.need .input-group-title {
+  height: 48px;
+  background-color: #ffffff;
+  border: none;
+  width: 63%;
+  margin: 0 15px 30px;
+}
+.need .input-group-Message {
+  background-color: #ffffff;
+  border: none;
+  width: 63%;
+  height: 170px;
+  margin: 0 15px 30px;
 }
 @media (max-width: 992px) {
   header {
@@ -194,6 +253,12 @@ header .header-all .header-all__btn {
   }
   .carousel p {
     padding: 30px 0 ;
+  }
+  .sponsors {
+    display: block;
+  }
+  .sponsors img {
+    padding: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
