@@ -18,7 +18,7 @@ header nav a {
 header .header-all h1 {
   padding-top: 180px;
   color: #FF4500;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 38px;
   font-weight: 500;
   line-height: 48px;
@@ -33,7 +33,7 @@ header .header-all p {
 }
 header .header-all .header-all__btn {
   background-color: #FF4500;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -50,7 +50,7 @@ header .header-all .header-all__btn {
 .about-us h2 {
   padding: 100px 0 41px;
   color: #191919;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
   line-height: 60px;
@@ -65,14 +65,14 @@ header .header-all .header-all__btn {
 }
 .skills .professional-skills h2 {
   color: #171717;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
   line-height: 84px;
 }
 .skills .professional-skills p {
   color: #000000;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 30px;
@@ -94,7 +94,7 @@ header .header-all .header-all__btn {
 }
 .work .projects p {
   color: #ffffff;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 30px;
@@ -122,7 +122,7 @@ header .header-all .header-all__btn {
 }
 .Process h2 {
   color: #191919;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
   line-height: 60px;
@@ -146,7 +146,7 @@ header .header-all .header-all__btn {
 }
 .skills p {
   color: #191919;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 30px;
@@ -155,6 +155,27 @@ header .header-all .header-all__btn {
 }
 /* finish skills */
 /* start carousel */
+.carousel {
+  background-color: #10c9c3;
+  text-align: center;
+}
+.carousel h3 {
+  padding-top: 170px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 36px;
+  font-size: 30px;
+}
+.carousel p {
+  padding: 30px 0 178px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: uppercase;
+}
 @media (max-width: 992px) {
   header {
     text-align: center;
@@ -165,6 +186,14 @@ header .header-all .header-all__btn {
   }
   .work .projects {
     padding: 30px 0px;
+  }
+  .carousel h3 {
+    padding: 30px 20px 0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .carousel p {
+    padding: 30px 0 ;
   }
 }
 /*# sourceMappingURL=style.css.map */
