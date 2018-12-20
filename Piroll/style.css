@@ -7,6 +7,9 @@ header {
 header nav {
   padding-top: 38px;
 }
+header nav img {
+  color: #FF4500;
+}
 header .header-logo:hover {
   -moz-transition: all 1s ease-out;
   -o-transition: all 1s ease-out;
@@ -72,7 +75,8 @@ header nav a:hover {
 }
 #particles-js h2 {
   padding-top: 3%;
-  padding-left: 45%;
+  left: 50%;
+  margin-left: -150px;
   color: #191919;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
@@ -83,12 +87,14 @@ header nav a:hover {
 }
 #particles-js img {
   padding-top: 20%;
-  padding-left: 45%;
+  left: 50%;
+  margin-left: -150px;
   position: absolute;
 }
 #particles-js p {
   padding-top: 10%;
-  padding-left: 30%;
+  left: 40%;
+  margin-left: -150px;
   position: absolute;
   text-align: center;
 }
@@ -124,7 +130,7 @@ header nav a:hover {
   background-color: #10c9c3;
 }
 .work .projects {
-  padding: 102px 0px;
+  padding: 102px 0;
 }
 .work .projects p {
   color: #ffffff;
@@ -315,7 +321,7 @@ footer p {
     text-align: center;
   }
   .work .projects {
-    padding: 30px 0px;
+    padding: 30px 0;
   }
   .carousel h3 {
     padding: 30px 20px 0;
@@ -342,16 +348,19 @@ footer p {
   }
   #particles-js h2 {
     padding-top: 3%;
-    padding-left: 35%;
+    left: 50%;
+    margin-left: -150px;
   }
   #particles-js img {
     padding-top: 40%;
-    padding-left: 30%;
+    left: 50%;
+    margin-left: -150px;
     position: absolute;
   }
   #particles-js p {
     padding-top: 20%;
-    padding-left: 10%;
+    left: 50%;
+    margin-left: -150px;
     position: absolute;
     text-align: center;
   }
@@ -363,16 +372,19 @@ footer p {
   }
   #particles-js h2 {
     padding-top: 3%;
-    padding-left: 40%;
+    left: 50%;
+    margin-left: -150px;
   }
   #particles-js img {
     padding-top: 50%;
-    padding-left: 40%;
+    left: 50%;
+    margin-left: -150px;
     position: absolute;
   }
   #particles-js p {
     padding-top: 20%;
-    padding-left: 10%;
+    left: 50%;
+    margin-left: -150px;
     position: absolute;
     text-align: center;
   }
