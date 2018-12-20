@@ -12,6 +12,15 @@ header {
     padding-top: 38px;
   }
 
+.header-logo:hover {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    cursor: pointer;
+}
   & nav a {
     background-position: 0 100%;
     background-repeat: repeat-x;
@@ -65,18 +74,31 @@ header {
   }
 /* finish header */
 /* start about-us */
-.about-us {
-  text-align: center;
+#particles-js {
+  background-color: silver;
+  height: 450px;
+  width: 100%;
   & h2 {
-    padding: 100px 0 41px;
+    padding-top: 3%;
+    padding-left: 45%;
     color: #191919;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 500;
     line-height: 60px;
+    position: absolute;
+    text-align: center;
   }
   & img {
-    padding: 37px 0 100px;
+    padding-top: 20%;
+    padding-left: 45%;
+    position: absolute;
+  }
+  & p {
+    padding-top: 10%;
+    padding-left: 30%;
+    position: absolute;
+    text-align: center;
   }
 }
 /* finish about-us */
@@ -302,6 +324,7 @@ footer {
 @media (max-width: 992px) {
   header {
     text-align: center;
+
     & .header-all {
       & h1 {
         padding-top: 30px;
@@ -309,31 +332,89 @@ footer {
       }
     }
   }
+
   .work {
     & .projects {
       padding: 30px 0px;
     }
   }
-.carousel {
-  & h3 {
-    padding: 30px 20px 0;
-    font-size: 20px;
-    line-height: 30px;
-  }
-  & p {
-    padding: 30px 0 ;
 
+  .carousel {
+    & h3 {
+      padding: 30px 20px 0;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    & p {
+      padding: 30px 0;
+
+    }
   }
-}
+
   .sponsors {
     display: block;
+
     & img {
       padding: 20px;
     }
   }
+
   footer {
     text-align: center;
     padding: 30px 0;
   }
+
+  #particles-js {
+    background-color: silver;
+    height: 500px;
+    width: 100%;
+
+    & h2 {
+      padding-top: 3%;
+      padding-left: 35%;
+    }
+
+    & img {
+      padding-top: 40%;
+      padding-left: 30%;
+      position: absolute;
+    }
+
+    & p {
+      padding-top: 20%;
+      padding-left: 10%;
+      position: absolute;
+      text-align: center;
+    }
+  }
 }
+
+@media (max-width: 650px) {
+  #particles-js {
+    height: 400px;
+    width: 100%;
+
+    & h2 {
+      padding-top: 3%;
+      padding-left: 40%;
+    }
+
+    & img {
+      padding-top: 50%;
+      padding-left: 40%;
+      position: absolute;
+    }
+
+    & p {
+      padding-top: 20%;
+      padding-left: 10%;
+      position: absolute;
+      text-align: center;
+    }
+  }
+}
+
+
+
 

@@ -7,6 +7,15 @@ header {
 header nav {
   padding-top: 38px;
 }
+header .header-logo:hover {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  cursor: pointer;
+}
 header nav a {
   background-position: 0 100%;
   background-repeat: repeat-x;
@@ -56,19 +65,32 @@ header nav a:hover {
 }
 /* finish header */
 /* start about-us */
-.about-us {
-  text-align: center;
+#particles-js {
+  background-color: silver;
+  height: 450px;
+  width: 100%;
 }
-.about-us h2 {
-  padding: 100px 0 41px;
+#particles-js h2 {
+  padding-top: 3%;
+  padding-left: 45%;
   color: #191919;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
   line-height: 60px;
+  position: absolute;
+  text-align: center;
 }
-.about-us img {
-  padding: 37px 0 100px;
+#particles-js img {
+  padding-top: 20%;
+  padding-left: 45%;
+  position: absolute;
+}
+#particles-js p {
+  padding-top: 10%;
+  padding-left: 30%;
+  position: absolute;
+  text-align: center;
 }
 /* finish about-us */
 /* start skills */
@@ -301,7 +323,7 @@ footer p {
     line-height: 30px;
   }
   .carousel p {
-    padding: 30px 0 ;
+    padding: 30px 0;
   }
   .sponsors {
     display: block;
@@ -312,6 +334,47 @@ footer p {
   footer {
     text-align: center;
     padding: 30px 0;
+  }
+  #particles-js {
+    background-color: silver;
+    height: 500px;
+    width: 100%;
+  }
+  #particles-js h2 {
+    padding-top: 3%;
+    padding-left: 35%;
+  }
+  #particles-js img {
+    padding-top: 40%;
+    padding-left: 30%;
+    position: absolute;
+  }
+  #particles-js p {
+    padding-top: 20%;
+    padding-left: 10%;
+    position: absolute;
+    text-align: center;
+  }
+}
+@media (max-width: 650px) {
+  #particles-js {
+    height: 400px;
+    width: 100%;
+  }
+  #particles-js h2 {
+    padding-top: 3%;
+    padding-left: 40%;
+  }
+  #particles-js img {
+    padding-top: 50%;
+    padding-left: 40%;
+    position: absolute;
+  }
+  #particles-js p {
+    padding-top: 20%;
+    padding-left: 10%;
+    position: absolute;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
