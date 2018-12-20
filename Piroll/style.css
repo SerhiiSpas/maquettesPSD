@@ -8,14 +8,21 @@ header nav {
   padding-top: 38px;
 }
 header nav a {
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
   color: #FF4500;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  font-weight: 800;
-  line-height: 24px;
+  text-decoration: none;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 700;
   text-transform: uppercase;
 }
-header .header-all h1 {
+header nav a:hover {
+  color: #FF4500;
+  text-shadow: 0px 0px 0 #d08a1c, 1px 1px 0 #a57b1a, 2px 2px 0 #f2b964, 3px 3px 0 #e3a7bb, 4px 4px 0 #b6813f, 5px 5px 0 #a17532, 6px 6px 0 #906727, 7px 7px 0 #825b1f, 8px 8px 0 #785319, 9px 9px 0 #6c4914, 10px 10px 0 #5d3f0d, 11px 11px 0 #3c360c, 12px 12px 0 #3f2908, 13px 13px 0;
+}
+.header-all h1 {
   padding-top: 180px;
   color: #FF4500;
   font-family: 'Montserrat', sans-serif;
@@ -23,7 +30,7 @@ header .header-all h1 {
   font-weight: 500;
   line-height: 48px;
 }
-header .header-all p {
+.header-all p {
   color: #FF4500;
   font-family: "Nunito Sans";
   font-size: 18px;
@@ -31,7 +38,7 @@ header .header-all p {
   line-height: 28px;
   padding: 32px 0 39px;
 }
-header .header-all .header-all__btn {
+.header-all .header-all__btn {
   background-color: #FF4500;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
@@ -42,7 +49,7 @@ header .header-all .header-all__btn {
   height: 54px;
   border: none;
 }
-header .header-all .header-all__btn:hover {
+.header-all .header-all__btn:hover {
   background-color: black;
   transition-duration: 1s;
   cursor: pointer;

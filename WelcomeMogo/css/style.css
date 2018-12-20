@@ -6,6 +6,12 @@ img {
     max-width: 100%;
 }
 
+/*start-header*/
+
+header {
+    padding: 20px 0;
+}
+
 .first {
     background: url(../images/eagle.jpg);
     background-size: cover;
@@ -46,10 +52,6 @@ img {
 
 .first-icons a:hover {
     text-decoration: none;
-}
-
-header {
-    padding: 20px 0;
 }
 
 .first-slider {
@@ -101,6 +103,8 @@ header {
     color: #fce38a;
     border-color: #fce38a;
 }
+/*finish-header*/
+/*start-about*/
 
 .about {
     padding: 90px 0 110px;
