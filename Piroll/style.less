@@ -170,12 +170,55 @@ header {
 }
 /* finish work */
 /* start load */
-.load {
-  & .load-work {
-    width: 100%;
-   & img {
-   width: 100%;
-   }
+.load-more-container {
+  background: #fff;
+  width: 100%;
+  position: relative;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    &:after { content: ""; display: table; clear: both; }
+    li {
+      background: white;
+      color: #fff;
+      float: left;
+      border-radius: 2px;
+      width: 25%;
+      & img {
+        height: 300px;
+        width: 100%;
+      }
+      &:nth-child(1n + 5) {
+        max-height: 0;
+        opacity: 0;
+        transition: 0.1s ease-in;
+      }
+    }
+  }
+  .load-more-btn {
+    width: 150px;
+    line-height: 40px;
+    border-radius: 2px;
+    margin: 0 auto;
+    display: block;
+    background: #FF4500;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    &:hover { background: #FF4500; }
+    .loaded { display: none; }
+  }
+  #load-more {
+    display: none;
+    &:checked ~ ul li:nth-child(1n + 5) {
+      max-height: 999px;
+      opacity: 1;
+      transition: 0.2s ease-in;
+    }
+    &:checked ~ .load-more-btn {
+      .loaded { display: block; }
+      .unloaded { display: none; }
+    }
   }
 }
 /* finish load */
@@ -392,56 +435,7 @@ footer {
   }
 }
 
-.load-more-container {
-  background: #fff;
-  width: 100%;
-  min-height: 500px;
-  margin: 20px auto;
-  position: relative;
-  ul {
-    list-style-type: none;
-    padding: 0;
-    &:after { content: ""; display: table; clear: both; }
-    li {
-      width: calc(25% - 10px);
-      margin: 0;
-      height: 100px;
-      background: #446CB3;
-      color: #fff;
-      float: left;
-      &:nth-child(1n + 5) {
-        max-height: 0;
-        opacity: 0;
-        transition: 0.1s ease-in;
-      }
-    }
-  }
-  .load-more-btn {
-    width: 150px;
-    line-height: 40px;
-    border-radius: 2px;
-    margin: 0 auto;
-    display: block;
-    background: #219150;
-    color: #fff;
-    cursor: pointer;
-    text-align: center;
-    &:hover { background: green; }
-    .loaded { display: none; }
-  }
-  #load-more {
-    display: none;
-    &:checked ~ ul li:nth-child(1n + 5) {
-      max-height: 999px;
-      opacity: 1;
-      transition: 0.2s ease-in;
-    }
-    &:checked ~ .load-more-btn {
-      .loaded { display: block; }
-      .unloaded { display: none; }
-    }
-  }
-}
+
 
 
 
