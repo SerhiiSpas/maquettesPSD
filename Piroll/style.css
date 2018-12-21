@@ -1,6 +1,7 @@
 #back-top {
   position: fixed;
   display: none;
+  text-align: center;
 }
 .bg a {
   color: #FF4500;
@@ -132,7 +133,7 @@ header nav a:hover {
 /* finish skills */
 /* start work */
 .work {
-  background-color: #10c9c3;
+  background-color: #FF4500;
 }
 .work .projects {
   padding: 102px 0;
@@ -201,7 +202,7 @@ header nav a:hover {
 /* finish skills */
 /* start carousel */
 .carousel {
-  background-color: #10c9c3;
+  background-color: #FF4500;
   text-align: center;
 }
 .carousel h3 {
@@ -281,7 +282,7 @@ header nav a:hover {
   margin: 0 15px 30px;
 }
 .Top-slider__btn {
-  background-color: #10c9c3;
+  background-color: #FF4500;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
@@ -353,5 +354,65 @@ footer p {
     text-align: center;
     padding-top: 20px;
   }
+}
+.load-more-container {
+  background: #fff;
+  width: 100%;
+  min-height: 500px;
+  margin: 20px auto;
+  position: relative;
+}
+.load-more-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+.load-more-container ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.load-more-container ul li {
+  width: calc(25% - 10px);
+  margin: 0;
+  height: 100px;
+  background: #446CB3;
+  color: #fff;
+  float: left;
+}
+.load-more-container ul li:nth-child(1n + 5) {
+  max-height: 0;
+  opacity: 0;
+  transition: 0.1s ease-in;
+}
+.load-more-container .load-more-btn {
+  width: 150px;
+  line-height: 40px;
+  border-radius: 2px;
+  margin: 0 auto;
+  display: block;
+  background: #219150;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+.load-more-container .load-more-btn:hover {
+  background: green;
+}
+.load-more-container .load-more-btn .loaded {
+  display: none;
+}
+.load-more-container #load-more {
+  display: none;
+}
+.load-more-container #load-more:checked ~ ul li:nth-child(1n + 5) {
+  max-height: 999px;
+  opacity: 1;
+  transition: 0.2s ease-in;
+}
+.load-more-container #load-more:checked ~ .load-more-btn .loaded {
+  display: block;
+}
+.load-more-container #load-more:checked ~ .load-more-btn .unloaded {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

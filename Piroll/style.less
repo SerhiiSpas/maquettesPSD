@@ -4,6 +4,7 @@
 #back-top{
   position:fixed;
   display:none;
+  text-align: center;
 }
 .bg a {
   color: #FF4500;
@@ -148,7 +149,7 @@ header {
 /* finish skills */
 /* start work */
 .work {
-  background-color: #10c9c3;
+  background-color: #FF4500;
   & .projects {
     padding: 102px 0;
     & p {
@@ -220,7 +221,7 @@ header {
 /* start carousel */
 
 .carousel {
-  background-color: #10c9c3;
+  background-color: #FF4500;
   text-align: center;
   & h3 {
     padding-top: 170px;
@@ -300,7 +301,7 @@ header {
   }
 }
 .Top-slider__btn {
-  background-color: #10c9c3;
+  background-color: #FF4500;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
@@ -391,6 +392,56 @@ footer {
   }
 }
 
+.load-more-container {
+  background: #fff;
+  width: 100%;
+  min-height: 500px;
+  margin: 20px auto;
+  position: relative;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    &:after { content: ""; display: table; clear: both; }
+    li {
+      width: calc(25% - 10px);
+      margin: 0;
+      height: 100px;
+      background: #446CB3;
+      color: #fff;
+      float: left;
+      &:nth-child(1n + 5) {
+        max-height: 0;
+        opacity: 0;
+        transition: 0.1s ease-in;
+      }
+    }
+  }
+  .load-more-btn {
+    width: 150px;
+    line-height: 40px;
+    border-radius: 2px;
+    margin: 0 auto;
+    display: block;
+    background: #219150;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    &:hover { background: green; }
+    .loaded { display: none; }
+  }
+  #load-more {
+    display: none;
+    &:checked ~ ul li:nth-child(1n + 5) {
+      max-height: 999px;
+      opacity: 1;
+      transition: 0.2s ease-in;
+    }
+    &:checked ~ .load-more-btn {
+      .loaded { display: block; }
+      .unloaded { display: none; }
+    }
+  }
+}
 
 
 
