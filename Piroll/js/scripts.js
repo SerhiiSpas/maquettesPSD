@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 function loadSkills(time) {
     var start = 0 ;
     var startTwo = 0 ;

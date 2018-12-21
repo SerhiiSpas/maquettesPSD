@@ -1,6 +1,15 @@
 @font-family: 'Montserrat', sans-serif;
 @font-family: 'Nunito Sans', sans-serif;
 
+#back-top{
+  position:fixed;
+  display:none;
+}
+.bg a {
+  color: #FF4500;
+  text-transform: uppercase;
+}
+
 /* start header */
 header {
   background: url(images/header-fon.jpg);
@@ -11,6 +20,10 @@ header {
     padding-top: 38px;
     & img {
       color: #FF4500;
+    }
+    & .header-logo {
+      height: 50px;
+      width: 50px;
     }
   }
 
@@ -78,33 +91,31 @@ header {
 /* start about-us */
 #particles-js {
   background-color: silver;
-  height: 450px;
+  height: 380px;
   width: 100%;
-  & h2 {
-    padding-top: 3%;
-    left:50%;
+  & .About {
+    position: absolute;
+    left:40%;
     margin-left:-150px;
+    text-align: center;
+    padding-top: 20px;
+  & h2 {
+
     color: #191919;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 500;
     line-height: 60px;
-    position: absolute;
     text-align: center;
   }
   & img {
-    padding-top: 20%;
-    left:50%;
-    margin-left:-150px;
-    position: absolute;
+
   }
   & p {
-    padding-top: 10%;
-    left:40%;
-    margin-left:-150px;
-    position: absolute;
+
     text-align: center;
   }
+ }
 }
 /* finish about-us */
 /* start skills */
@@ -371,61 +382,15 @@ footer {
     padding: 30px 0;
   }
 
-  #particles-js {
-    background-color: silver;
-    height: 500px;
-    width: 100%;
-
-    & h2 {
-      padding-top: 3%;
-      left:50%;
-      margin-left:-150px;
-    }
-
-    & img {
-      padding-top: 40%;
-      left:50%;
-      margin-left:-150px;
-      position: absolute;
-    }
-
-    & p {
-      padding-top: 20%;
-      left:50%;
-      margin-left:-150px;
-      position: absolute;
-      text-align: center;
-    }
+  .About {
+    position: absolute;
+    left:40%;
+    margin-left:-150px;
+    text-align: center;
+    padding-top: 20px;
   }
 }
 
-@media (max-width: 650px) {
-  #particles-js {
-    height: 400px;
-    width: 100%;
-
-    & h2 {
-      padding-top: 3%;
-      left:50%;
-      margin-left:-150px;
-    }
-
-    & img {
-      padding-top: 50%;
-      left:50%;
-      margin-left:-150px;
-      position: absolute;
-    }
-
-    & p {
-      padding-top: 20%;
-      left:50%;
-      margin-left:-150px;
-      position: absolute;
-      text-align: center;
-    }
-  }
-}
 
 
 

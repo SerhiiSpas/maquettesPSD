@@ -1,3 +1,11 @@
+#back-top {
+  position: fixed;
+  display: none;
+}
+.bg a {
+  color: #FF4500;
+  text-transform: uppercase;
+}
 /* start header */
 header {
   background: url(images/header-fon.jpg);
@@ -9,6 +17,10 @@ header nav {
 }
 header nav img {
   color: #FF4500;
+}
+header nav .header-logo {
+  height: 50px;
+  width: 50px;
 }
 header .header-logo:hover {
   -moz-transition: all 1s ease-out;
@@ -70,32 +82,25 @@ header nav a:hover {
 /* start about-us */
 #particles-js {
   background-color: silver;
-  height: 450px;
+  height: 380px;
   width: 100%;
 }
-#particles-js h2 {
-  padding-top: 3%;
-  left: 50%;
+#particles-js .About {
+  position: absolute;
+  left: 40%;
   margin-left: -150px;
+  text-align: center;
+  padding-top: 20px;
+}
+#particles-js .About h2 {
   color: #191919;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
   line-height: 60px;
-  position: absolute;
   text-align: center;
 }
-#particles-js img {
-  padding-top: 20%;
-  left: 50%;
-  margin-left: -150px;
-  position: absolute;
-}
-#particles-js p {
-  padding-top: 10%;
-  left: 40%;
-  margin-left: -150px;
-  position: absolute;
+#particles-js .About p {
   text-align: center;
 }
 /* finish about-us */
@@ -341,52 +346,12 @@ footer p {
     text-align: center;
     padding: 30px 0;
   }
-  #particles-js {
-    background-color: silver;
-    height: 500px;
-    width: 100%;
-  }
-  #particles-js h2 {
-    padding-top: 3%;
-    left: 50%;
-    margin-left: -150px;
-  }
-  #particles-js img {
-    padding-top: 40%;
-    left: 50%;
-    margin-left: -150px;
+  .About {
     position: absolute;
-  }
-  #particles-js p {
-    padding-top: 20%;
-    left: 50%;
+    left: 40%;
     margin-left: -150px;
-    position: absolute;
     text-align: center;
-  }
-}
-@media (max-width: 650px) {
-  #particles-js {
-    height: 400px;
-    width: 100%;
-  }
-  #particles-js h2 {
-    padding-top: 3%;
-    left: 50%;
-    margin-left: -150px;
-  }
-  #particles-js img {
-    padding-top: 50%;
-    left: 50%;
-    margin-left: -150px;
-    position: absolute;
-  }
-  #particles-js p {
-    padding-top: 20%;
-    left: 50%;
-    margin-left: -150px;
-    position: absolute;
-    text-align: center;
+    padding-top: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
