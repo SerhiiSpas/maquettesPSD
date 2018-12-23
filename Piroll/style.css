@@ -2,6 +2,7 @@
   position: fixed;
   display: none;
   text-align: center;
+  z-index: 99;
 }
 .bg a {
   color: #FF4500;
@@ -408,6 +409,9 @@ footer p {
     margin-left: -150px;
     text-align: center;
     padding-top: 20px;
+  }
+  #back-top {
+    position: absolute;
   }
 }
 /*# sourceMappingURL=style.css.map */
