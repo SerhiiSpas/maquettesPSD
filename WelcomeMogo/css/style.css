@@ -284,7 +284,7 @@ header {
 
 .happy {
     background-image: url("../images/happy-clients2.jpg");
-    height: 830px;
+    height: 100%;
     width: auto;
     margin-bottom: 100px;
 }
@@ -411,6 +411,17 @@ span.block__date-month {
 .some-flex-container {
     display: flex;
     flex-wrap: wrap;
+}
+
+.work-photo li {
+    list-style-type: none;
+}
+.work-photo {
+    margin-left: 0;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+    display: flex;
 }
 
 .Open-map {
@@ -693,4 +704,58 @@ span.block__date-month {
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     background-color: silver;
+}
+
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    .first-menu {
+        padding: 15px 0;
+    }
+    .design__iphone {
+        position: relative;
+        bottom: 0px;
+        right: -16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .stat__item-number {
+        font-size: 40px;
+    }
+
+    .stat__item-text {
+        font-size: 13px;
+    }
+
+    .carousel-inner img {
+        height: 50px;
+        width: 50px;
+        margin-left: 5%;
+        margin-right: 3%;
+    }
+
+    .Joshu-text-all {
+        width: 100%;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .Joshu-text-all:after {
+        content: '';
+        display: block;
+        margin-left: 50%;
+        margin-top: 25px;
+    }
+
+    .Joshu-text-sign {
+        font-size: 20px;
+    }
+
+    .happy__title {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
 }
