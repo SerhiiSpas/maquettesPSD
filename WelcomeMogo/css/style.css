@@ -415,12 +415,11 @@ span.block__date-month {
 
 .work-photo li {
     list-style-type: none;
+    width: 25%;
 }
 .work-photo {
     margin-left: 0;
-    /* Отступ слева в браузере IE и Opera */
     padding-left: 0;
-    /* Отступ слева в браузере Firefox, Safari, Chrome */
     display: flex;
 }
 
@@ -757,5 +756,8 @@ span.block__date-month {
     .happy__title {
         padding-top: 20px;
         padding-bottom: 16px;
+    }
+    .first-slider__name {
+        font-size: 32px;
     }
 }
