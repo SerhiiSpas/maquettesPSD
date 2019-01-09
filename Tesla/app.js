@@ -6,14 +6,12 @@ $(document).ready(function(){
       var imageHeight = $(this).data('height')
       $(this).css('background-image','url(' + imageSrc + ')')
       $(this).css('height', imageHeight)
-
-      // Adjust the background position.
       var initY = $(this).offset().top
       var height = $(this).height()
       var diff = scrolled - initY
       var ratio = Math.round((diff / height) * 100)
       $(this).css('background-position','center ' + parseInt(-(ratio * 1.5)) + 'px')
-  })
+  });
 
 
   $(window).scroll(function() {
@@ -22,8 +20,6 @@ $(document).ready(function(){
       var initY = $(this).offset().top
       var height = $(this).height()
       var endY  = initY + $(this).height()
-
-      // Check if the element is in the viewport.
       var visible = isInViewport(this)
       if(visible) {
         var diff = scrolled - initY
