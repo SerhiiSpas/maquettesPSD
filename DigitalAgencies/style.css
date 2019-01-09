@@ -475,11 +475,11 @@ footer .footer-text p {
   }
   .Akita-about-bottom-text {
     padding: 0;
-    width: 85px;
+    width: 100%;
   }
   .Akita-about-top-text {
     padding: 0;
-    width: 85px;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -487,6 +487,10 @@ footer .footer-text p {
     font-size: 50px;
     font-weight: 700;
     padding-top: 50px;
+  }
+  .team-position {
+    bottom: -5px;
+    left: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
