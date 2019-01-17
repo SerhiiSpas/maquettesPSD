@@ -13,6 +13,38 @@ font-family: 'Poppins', sans-serif;*/
   background-size: cover;
 }
 
+.entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  width: 426px;
+  margin-left: 39%;
+  & .entry-title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25.7px;
+    margin: 78px 0 16px;
+  }
+  & .entry-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 148px;
+  }
+  & .entry-text-center {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #ffd7f1;
+    position: absolute;
+    width: 354px;
+    top: 500px;
+  }
+}
+
 .circle__years {
   height: 100%;
 }
@@ -55,7 +87,12 @@ font-family: 'Poppins', sans-serif;*/
   border: none;
   text-align: center;
   cursor: pointer;
-  color: white;
+  color: #d5d5d5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.47px;
+  text-transform: uppercase;
 }
 
 .list_years {
@@ -70,7 +107,6 @@ font-family: 'Poppins', sans-serif;*/
   list-style: none;
   position: absolute;
   transform: rotate(-15deg);
-  background-color: #468ac5;
   text-align: end;
   width: 107%;
   top: 50%;
