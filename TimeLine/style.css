@@ -109,7 +109,7 @@ font-family: 'Poppins', sans-serif;*/
 }
 
 .data {
-  color: white;
+  color: #632efa;
   margin-left: 50%;
   position: relative;
   display: flex;
@@ -125,11 +125,19 @@ font-family: 'Poppins', sans-serif;*/
   position: absolute;
   opacity: 0;
   z-index: -1;
-  transition: opacity 1s;
+  transition: opacity 1.5s;
 }
 .data__text li.active {
   opacity: 1;
   z-index: 1;
+}
+.data__text li.h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 240px;
+  font-weight: 700;
+  line-height: 100.11px;
+  text-transform: uppercase;
+  letter-spacing: 7.19px;
 }
 
 /*# sourceMappingURL=style.css.map */
