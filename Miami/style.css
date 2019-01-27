@@ -203,4 +203,58 @@ nav a {
   width: 100%;
   text-align: center;
 }
+#testimonials {
+  background-color: #eeeeee;
+}
+.wrap_testimonials {
+  justify-content: space-between;
+  width: 76vw;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.box_tm {
+  width: 23.71vw;
+  padding-bottom: 21.9vh;
+}
+.name_tm {
+  font-size: 1.26vw;
+  margin-bottom: 1.3vh;
+  text-align: center;
+}
+.name_tm h3 {
+  font-weight: bold;
+}
+.name_tm h4 {
+  font-style: italic;
+  color: #696973;
+  font-weight: 400;
+}
+.text_tm {
+  text-align: center;
+}
+.box_img_tm {
+  width: 10.62vw;
+  height: 10.62vw;
+  border-radius: 10.62vw;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 4.81vw);
+}
+.box_img_tm img {
+  width: 100%;
+  height: auto;
+}
+.img_tm {
+  position: relative;
+  height: 12.8vw;
+}
 /*# sourceMappingURL=style.css.map */
