@@ -20,6 +20,20 @@ $(window).scroll( function () {
 $('#slide').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoPlay: true,
-    autoplaySpeed: 2000,
+});
+
+$('#view_all_gallery').click( function () {
+    let content = '<div class="gallery_line">\n' +
+        '<div class="box_img_gallery">\n' +
+        '<img src="img/gallery_1.jpg" alt="">\n' +
+        '</div>\n' +
+        '<div class="box_img_gallery">\n' +
+        '<img src="img/gallery_2.jpg" alt="">\n' +
+        '</div>\n' +
+        '</div>\n' +
+        '<div class="name_gallery">\n' +
+        '<p><b>Marina Palms / </b><span class="blue"> North Miami Beach, FL 33162</span></p>\n' +
+        '</div>';
+    $('#gallery_box').append(content);
+    $(this).remove();
 });

@@ -349,4 +349,22 @@ footer {
 .fixedNav:hover {
   opacity: 1;
 }
+#header {
+  animation: slideshow 10s linear infinite 3s;
+  backface-visibility: hidden;
+}
+@-webkit-keyframes slideshow {
+  0% {
+    background-image: url("img/header1.png");
+    animation-timing-function: ease-in-out;
+  }
+  50% {
+    background-image: url("img/header2.jpg");
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    background-image: url("img/header1.png");
+    animation-timing-function: ease-in-out;
+  }
+}
 /*# sourceMappingURL=style.css.map */
