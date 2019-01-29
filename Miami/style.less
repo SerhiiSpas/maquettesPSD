@@ -56,7 +56,6 @@ body {
 #bottom-header {
   justify-content: space-between;
   align-items: center;
-  padding-top: 73.2vh;
   & a {
     color: white;
     text-transform: uppercase;
@@ -376,4 +375,28 @@ footer {
   width: 100%;
   bottom: 9.15vh;
   text-align: center;
+}
+
+.fixedNav {
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+  background-color: white;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  z-index: 10;
+  transition: 0.25s;
+}
+
+#bottom-header.fixedNav a {
+  color: #323232;
+}
+
+#bottom-header.fixedNav nav {
+  height: inherit;
+}
+
+.fixedNav:hover {
+  opacity: 1;
 }
