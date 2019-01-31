@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    font-family: "Segoe UI";
+}
+
 header {
     position: fixed;
     top: 0;
@@ -13,4 +17,91 @@ header {
     background-color: #242b2e;
     color: #6b7072;
     box-shadow: 8px 0 14px 0 #848484;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+}
+
+#logo {
+    width: 100%;
+    height: 11.57vh;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    width: 39%;
+    height: 37.6%;
+}
+
+#main_nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.93vmax;
+    line-height: 1.66vmax;
+    height: 3.22vmax;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    background: #333b3f;
+    background: -moz-linear-gradient(top, #333b3f 0%, #2e363a 100%);
+    background: -webkit-linear-gradient(top, #333b3f 0%,#2e363a 100%);
+    background: linear-gradient(to bottom, #333b3f 0%,#2e363a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333b3f', endColorstr='#2e363a',GradientType=0 );
+    padding-right: 1.3vmax;
+}
+
+#main_nav a:hover {
+    background: #1ab5b3;
+}
+
+#main_nav li {
+    list-style: none;
+}
+
+#title_filter {
+    color: #1ab5b3;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    fill: #1ab5b3;
+    font-size: 0.98vmax;
+    padding: 1.25vmax;
+
+}
+
+#title_filter svg {
+    width: 0.9vmax;
+    height: 0.9vmax;
+    margin-left: 0.62vmax;
+}
+
+#filter li {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+}
+
+#filter a {
+    font-size: 0.67vmax;
+    line-height: 1.25vmax;
+    text-align: right;
+    padding: 0.41vmax 1.25vmax;
+    text-decoration: none;
+    color: #616669;
+}
+
+#filter a.active {
+    color: #fff;
+}
+
+#filter a:hover {
+    color: #fff;
 }
