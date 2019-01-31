@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    height: 100vh;
+    width: 15.62vw;
+    background-color: #242b2e;
+    color: #6b7072;
+    box-shadow: 8px 0 14px 0 #848484;
+}
