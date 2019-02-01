@@ -211,3 +211,16 @@ main {
     background-color: #fff;
     margin: 1vw auto;
 }
+
+#info {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    width: 4.68vw;
+    height: 4.68vw;
+    background-color: rgba(45, 184, 185, 0.9);
+    fill: #fff;
+    padding: 1.1vw;
+    cursor: pointer;
+}
