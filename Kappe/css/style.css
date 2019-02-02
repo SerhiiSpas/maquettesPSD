@@ -217,10 +217,52 @@ main {
     top: 0;
     right: 0;
     z-index: 5;
-    width: 4.68vw;
-    height: 4.68vw;
+    width: 2.5vw;
+    height: 2.5vw;
     background-color: rgba(45, 184, 185, 0.9);
     fill: #fff;
     padding: 1.1vw;
     cursor: pointer;
+}
+
+#main_nav .active {
+    background: #1ab5b3;
+}
+
+#info_box svg {
+    height: 0.88vw;
+    fill: #fff;
+    margin-right: 0.52vw;
+}
+
+#info_box {
+    position: fixed;
+    right: 0;
+    z-index: 5;
+    background-color: rgba(0,0,0,0.7);
+    padding: 1vw 3.85vw 1vw 1vw;
+    top: 4.68vw;
+    color: #fff;
+    transform: translateX(100%);
+    transition: all 0.35s;
+}
+
+#info_box .open {
+    transform: translateX(0%);
+    transition: all 0.35s;
+}
+
+#info_box li {
+    list-style: none;
+    font-size: 0.83vmax;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    line-height: 0.78vmax;
+    margin-bottom: 1vw;
+}
+
+#info_box li:last-of-type {
+    margin-bottom: 0;
 }
