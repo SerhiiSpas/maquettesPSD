@@ -247,7 +247,7 @@ main {
     transition: all 0.35s;
 }
 
-#info_box .open {
+#info_box.open {
     transform: translateX(0%);
     transition: all 0.35s;
 }

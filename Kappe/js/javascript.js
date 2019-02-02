@@ -1,8 +1,7 @@
-$(function () {
+$(function() {
+    'used script';
 
-    'use strict';
-    $ ("#info").click( function () {
-        $ ("#info_box").toggleClass('open')
+    $("#info").click(function() {
+        $('#info_box').toggleClass('open');
     })
-
 });
