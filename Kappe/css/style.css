@@ -5,6 +5,7 @@
 
 body {
     font-family: "Segoe UI";
+    background-color: silver;
 }
 
 header {
@@ -266,3 +267,103 @@ main {
 #info_box li:last-of-type {
     margin-bottom: 0;
 }
+
+.wrap {
+    margin: 1.56vw;
+    padding: 1.56vw;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.info_work_box {
+    display: flex;
+    align-content: stretch;
+    align-items: start;
+}
+
+.info_work_box {
+    width: 100%;
+}
+
+.info_work_box .left_info,
+.info_work_box .left_right {
+    width: 48%;
+}
+
+.left_info {
+    border-right: 1px solid silver;
+    margin-right: 1.59vw;
+    padding-right: 1.59vw;
+}
+
+.info_work_box .left_info .img_box_work {
+    width: 100%;
+    overflow: hidden;
+    height: 29.16vw;
+}
+
+.info_work_box .left_info .img_box_work img {
+    width: 100%;
+    height: auto;
+}
+
+.info_work_box .left_info .about_work {
+    margin-top: 1.3vw;
+    padding-bottom: 1.16vw;
+    border-bottom: 1px solid silver;
+    color: silver;
+    font-size: 0.93vw;
+    line-height: 1.56vw;
+}
+
+.info_work_box .left_info .about_work h1,
+.title_info {
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.35vw;
+    color: #000;
+    margin-bottom: 1vw;
+}
+
+.info_work_box .left_info .about_work p {
+    margin-bottom: 2.39vw;
+}
+
+.info_work_box .left_info .about_work p:last-of-type {
+    margin-bottom: 0;
+}
+
+
+
+
+.pr_info li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 0.8vw;
+    line-height: 1.56vw;
+    color: silver;
+    padding: 0.72vw 0;
+    border-bottom: 1px silver solid;
+    width: 37.5vw;
+}
+
+.pr_info li img {
+    margin-right: 0.67vw;
+}
+
+.list_tags {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.pr_info,
+.tags {
+    margin-bottom: 1.56vw;
+}
+
