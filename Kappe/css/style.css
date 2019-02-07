@@ -593,3 +593,62 @@ main {
     font-size: 0.93vw;
     line-height: 1.56vw;
 }
+
+.info_post {
+    display: flex;
+    align-items: center;
+}
+
+.com_post,
+.data_post {
+    display: flex;
+    align-items: center;
+}
+
+.box_post {
+    width: 15.31vw;
+    height: auto;
+    margin-bottom: 1.3vw;
+    background-color: #fff;
+    overflow: hidden;
+    color: #9c9c9c;
+    font-size: 0.67vw;
+    line-height: 1.14vw;
+}
+
+.img_post {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img_post img {
+    height: 100%;
+}
+
+.img_post_h1 {
+    height: 12vw; /*230*/
+}
+
+.img_post_h2 {
+    height: 13.6vw;/*262*/
+}
+
+.img_post_h3 {
+    height: 9.58vw;/*184*/
+}
+
+.img_post_h4 {
+    height: 7.34vw;/*141*/
+}
+
+.img_post_h5 {
+    height: 19vw;/*316*/
+}
+
+.img_post_h6 {
+    height: 8.75vw;/*168*/
+}
+
+.img_post_h7 {
+    height: 13.8vw;/*265*/
+}
