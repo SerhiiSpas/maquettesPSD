@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,600i,700,700i,900');
+
 @font-face {
     font-family: 'HarmoniaSansProCyr-SemiBd';
     src: local('HarmoniaSansProCyr-SemiBd'),
     url('https://nomail.com.ua/files/woff/a9e1fc9e2a3f912d25d5e58a47c05318.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HarmoniaSansProCyr-Black';
+    src: local('HarmoniaSansProCyr-Black'),
+    url('https://nomail.com.ua/files/woff/163efa8fb24918115c3f594fdeced144.woff') format('woff');
 }
 
 * {
@@ -17,7 +24,7 @@
     flex-flow: row nowrap;
 }
 
-/*beginning header*/
+/*beginning header__________________________*/
 
 /*header_link__connection wrap*/
 
@@ -79,7 +86,6 @@
 
 .border {
     border-bottom: 1px #e6e8eb solid;
-    opacity: 0.5;
 }
 /*header_base__logo*/
 
@@ -119,7 +125,7 @@
 /*header_base__nav*/
 
 .navigation {
-    margin-left: 5.46vw;
+    margin-left: 2.65vw;
 }
 
 .navigation li {
@@ -128,7 +134,7 @@
 }
 
 .navigation a {
-    font-family: 'HarmoniaSansProCyr-SemiBd';
+    font-family: 'HarmoniaSansProCyr-SemiBd', sans-serif;
     color: #34404b;
     text-decoration: none;
     font-weight: 400;
@@ -142,7 +148,7 @@
 /*header_base__icons*/
 
 .header_base__icons {
-    margin-left: 19vw;
+    margin-left: 21.5vw;
 }
 
 .icons li {
@@ -165,3 +171,109 @@
     transition: all ease 0.3s;
 }
 /*ending header*/
+/*beginning related-products__________________________*/
+
+.related-products {
+    width: 76vw;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-top: 6.68vw;
+}
+
+/*related-products_clothes*/
+
+.related-products_clothes {
+    width: 31.16vw;
+}
+
+/*related-products_info*/
+
+
+.related-products_info__text h2 {
+    color: #ff5912;
+    font-size: 3.37vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'HarmoniaSansProCyr-Black';
+
+}
+
+.related-products_info__text h4 {
+    color: #3c4751;
+    font-size: 1.17vw;
+    font-weight: 400;
+    line-height: 2vw;
+    padding: 1.68vw 0 2.5vw;
+    font-family: 'HarmoniaSansProCyr-SemiBd';
+}
+
+.related-products_info__text p {
+    width: 33.63vw;
+    color: #495662;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 2vw;
+    padding-bottom: 2.53vw;
+    border-bottom: 1px #e6e8eb solid;
+    font-family: 'HarmoniaSansProCyr-SemiBd';
+}
+
+/*related-products_info__selection*/
+
+.related-products_info__selection {
+    font-family: 'HarmoniaSansProCyr-SemiBd';
+    justify-content: space-between;
+    padding: 2.7vw 0;
+    border-bottom: 1px #e6e8eb solid;
+}
+
+.size-title,
+.quantity-title p {
+    color: #34404b;
+    font-size: 1.17vw;
+    font-weight: 400;
+    margin-right: 2vw;
+}
+
+.size ul>li {
+    list-style: none;
+}
+
+/*related-products_info__price*/
+.related-products_info__price {
+    justify-content: space-between;
+    padding: 2.6vw 0 8vw;
+}
+
+.price {
+    font-family: 'HarmoniaSansProCyr-SemiBd', sans-serif;
+    color: #34404b;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+/*related-products_info__order*/
+
+.related-products_info__order svg {
+    fill: #34404b;
+    width: 1.3vw;
+    height: 1.3vw;
+    margin-right: 1.62vw;
+}
+
+.related-products_info__order ul>li {
+    list-style: none;
+}
+
+.related-products_info__order button {
+    border-radius: 1.62vw;
+    background-color: #ff5912;
+    color: #fff;
+    padding: 1vw 1.49vw;
+    font-size: 1.16vw;
+    font-weight: 400;
+    font-family: 'HarmoniaSansProCyr-SemiBd', sans-serif;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
