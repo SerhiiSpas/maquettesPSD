@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,600i,700,700i,900');
+@font-face {
+    font-family: 'HarmoniaSansProCyr-SemiBd';
+    src: local('HarmoniaSansProCyr-SemiBd'),
+    url('https://nomail.com.ua/files/woff/a9e1fc9e2a3f912d25d5e58a47c05318.woff') format('woff');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrap {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+/*beginning header*/
+/*header {
+    width: 76vw;
+    margin: 0 auto;
+    background-color: #fff;
+}*/
+/*header_link__connection wrap*/
+
+.header_link {
+    padding: 1.62vw 0;
+    justify-content: space-between;
+    font-family: 'HarmoniaSansProCyr-SemiBd';
+    width: 76vw;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header_link:after {
+    border-bottom: #ff5912 3px solid;
+}
+
+.header_link__connection {
+    font-size: 0.78vw;
+    font-weight: 400;
+}
+
+.email svg {
+    width: 1.17vw;
+    height: 0.71vw;
+    fill: #ff5912;
+    margin-right: 0.65vw;
+}
+.phone svg {
+    width: 0.78vw;
+    height: 0.78vw;
+    fill: #ff5912;
+    margin: 0 0.65vw 0 1.3vw;
+}
+
+/*header_link__social wrap*/
+.social_icon {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.social_icon a {
+    margin-right: 1.36vw;
+}
+
+.social_icon svg {
+    fill: #34404b;
+    width: 0.9vw;
+    height: 0.71vw;
+}
+.border {
+    border-bottom: 1px #e6e8eb solid;
+    opacity: 0.5;
+}
+/*header_base__logo*/
+
+.header_base {
+    width: 76vw;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header_base__name {
+}
+
+.header_base__name p {
+    color: #46505a;
+    font-family: 'HarmoniaSansProCyr-SemiBd';
+    font-size: 0.71vw;
+    letter-spacing: 0.3vw;
+    position: relative;
+    top: -0.9vw;
+}
+
+.header_base__logo h2 {
+    color: #34404b;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.6vw;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header_base__logo img {
+    width: 2.2vw;
+    height: 1.1vw;
+    margin: 0 0.65vw 0.3vw;
+}
+
+/*header_base__nav*/
+
+.navigation {
+    margin-left: 5.46vw;
+}
+
+.navigation li {
+    list-style: none;
+    margin-left: 2.6vw;
+}
+
+.navigation a {
+    font-family: 'HarmoniaSansProCyr-SemiBd';
+    color: #34404b;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.navigation a:hover {
+    color: #ff5912;
+}
+
+/*ending header*/
