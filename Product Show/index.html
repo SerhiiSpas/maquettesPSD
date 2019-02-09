@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>SHOPY</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
         <header>
@@ -192,15 +192,9 @@
                     <img src="img/Big_Product_Img.jpg" alt="">
                 </div>
                 <div class="clothes_catalog wrap">
-                    <div class="clothes_catalog__img">
-                    <img src="img/boots_img_small.png" alt="">
-                    </div>
-                    <div class="clothes_catalog__img">
-                    <img src="img/pants_img_small.png" alt="">
-                    </div>
-                    <div class="clothes_catalog__img">
-                    <img src="img/coat_img_small.png" alt="">
-                    </div>
+                    <div class="thumb thumb1" id="thumb1" onclick="changeBg1()"><img src="img/boots_img_small.png" alt=""></div>
+                    <div class="thumb thumb2" id="thumb2" onclick="changeBg2()"><img src="img/pants_img_small.png" alt=""></div>
+                    <div class="thumb thumb3" id="thumb3" onclick="changeBg3()"><img src="img/coat_img_small.png" alt=""></div>
                 </div>
 
             </div>
@@ -216,10 +210,10 @@
                     <div class="size wrap">
                         <p class="size-title">Choos Size</p>
                         <div class="size_link wrap">
-                            <a href="#">S</a>-
-                            <a href="#">M</a>-
-                            <a href="#">L</a>-
-                            <a href="#">XL</a>
+                            <pre>S</pre>
+                            <pre>  -  M</pre>
+                            <pre>  -  L</pre>
+                            <pre>  -  XL</pre>
                         </div>
                     </div>
                     <div class="quantity wrap">

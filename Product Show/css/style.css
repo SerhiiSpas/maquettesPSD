@@ -189,7 +189,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: -10.3vw;
+    top: -5.3vw;
 }
 
 .clothes_catalog {
@@ -202,21 +202,27 @@
 
 }
 
-.clothes_catalog__img {
+.thumb {
     width: 6.17vw;
     height: 4.48vw;
     background-color: #f4f6f8;
 }
 
-.clothes_catalog__img img {
+.thumb img {
+    width: 2vw;
+    height: 3vw;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.clothes_catalog__img:nth-child(2) {
+.thumb:nth-child(2) {
     margin: 0 1.3vw;
+}
+
+.thumb:nth-child(3) {
+    background-color: #ff5912;
 }
 
 
@@ -301,17 +307,16 @@
 
 }
 
-.size_link a {
+.size_link pre {
+
     color: #34404b;
     text-decoration: none;
     font-family: 'HarmoniaSansProCyr-SemiBd';
     font-size: 0.9vw;
     font-weight: 400;
-    margin: 0 0.58vw;
-
 }
 
-.size_link a:active {
+.size_link pre:active {
     color: #f00;
     font-size: 1.17vw;
 }
