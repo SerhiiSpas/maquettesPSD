@@ -314,6 +314,7 @@
     font-family: 'HarmoniaSansProCyr-SemiBd';
     font-size: 0.9vw;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .size_link pre:active {
