@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>SHOPY</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
         <header>
@@ -189,7 +189,18 @@
         <div class="related-products wrap">
             <div class="related-products_clothes">
                 <div class="clothes_review">
-hgfhgfhgfh
+                    <img src="img/Big_Product_Img.jpg" alt="">
+                </div>
+                <div class="clothes_catalog wrap">
+                    <div class="clothes_catalog__img">
+                    <img src="img/boots_img_small.png" alt="">
+                    </div>
+                    <div class="clothes_catalog__img">
+                    <img src="img/pants_img_small.png" alt="">
+                    </div>
+                    <div class="clothes_catalog__img">
+                    <img src="img/coat_img_small.png" alt="">
+                    </div>
                 </div>
 
             </div>
@@ -197,22 +208,23 @@ hgfhgfhgfh
                 <div class="related-products_info__text">
                 <h2>FULL WINTER KIT</h2>
                 <h4>Half Jacket + Skiny Trousers + Boot leather</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry<br>
                     Lorem Ipsum is simply dummy text of the printing<br>
                     and typesetting industry</p>
                  </div>
                 <div class="related-products_info__selection wrap">
                     <div class="size wrap">
                         <p class="size-title">Choos Size</p>
-                        <ul class="wrap">
-                            <li><p>S</p></li>
-                            <li><p>M</p></li>
-                            <li><p>L</p></li>
-                            <li><p>XL</p></li>
-                        </ul>
+                        <div class="size_link wrap">
+                            <a href="#">S</a>-
+                            <a href="#">M</a>-
+                            <a href="#">L</a>-
+                            <a href="#">XL</a>
+                        </div>
                     </div>
                     <div class="quantity wrap">
                         <p class="quantity-title">Choos Quantity</p>
+                        <button onClick='a(1)'>+</button><div id="quantity">0</div><button onClick='a(0)'>-</button>
                     </div>
                 </div>
                 <div class="related-products_info__price wrap">
@@ -277,7 +289,8 @@ hgfhgfhgfh
                     </div>
                 </div>
             </div>
-
         </div>
+
+        <script src="js/click.js"></script>
 </body>
 </html>
