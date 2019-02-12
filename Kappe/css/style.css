@@ -622,7 +622,7 @@ main {
 }
 
 .img_post img {
-    height: 100%;
+    width: 100%;
 }
 
 .img_post_h1 {
@@ -725,5 +725,11 @@ main {
 
 .another a {
     color: #fff;
+}
+
+#list_post {
+    display: flex;
+    justify-content: space-between;
+
 }
 
